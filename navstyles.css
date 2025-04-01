@@ -1,0 +1,35 @@
+.navigation {
+    background-color: black;
+    padding: 24px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-family: "alumnisans";
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: white;
+    font-family: "alumnisans";
+    font-size: 24px;
+    transform: scale(1.2);
+}
